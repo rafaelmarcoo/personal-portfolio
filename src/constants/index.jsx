@@ -141,3 +141,21 @@ export const projects = [
         ],
     },
 ];
+
+export const experiences = [
+    {
+        title: "Full Stack Developer Intern",
+        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat debitis reprehenderit minima saepe, at eos iure, officia fuga nesciunt dolorum labore hic ratione et dolores provident rem ex enim tempore! Delectus pariatur facilis similique aspernatur fugit quam voluptate rerum architecto ducimus, eos impedit quaerat, ea reiciendis magnam ex quo veritatis.",
+        date: "Summer 2024",
+    },
+    {
+        title: "Waiter / Barista",
+        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat debitis ptate rerum architecto ducimus, eos impedit quaerat, ea reiciendis magnam ex quo veritatis.",
+        date: "Septemper 2024 - Present",
+    },
+    {
+        title: "Waiter / Bartender",
+        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat debitis ovident rem ex enim tempore! Delectus pariatur facilis similique aspernatur fugit quam voluptate rerum architecto ducimus, eos impedit quaerat, ea reiciendis magnam ex quo veritatis.",
+        date: "January 2023 - September 2024",
+    },
+]
