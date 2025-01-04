@@ -1,3 +1,5 @@
+import test from "../assets/projects/test.jpg";
+
 export const navItems = [
     { label: "Home", href:"#" },
     { label: "About", href:"#" },
@@ -58,6 +60,9 @@ export const projects = [
             'https://github.com/rafaelmarcoo/invoice-system-frontend',
             'https://github.com/rafaelmarcoo/invoice-system-backend',
         ],
+        screenshots: [
+            test,
+        ],
     },
     {
         title: "VR Landing Page",
@@ -68,6 +73,9 @@ export const projects = [
         ],
         sourceCode: [
             'https://github.com/rafaelmarcoo/vr-landing-page'
+        ],
+        screenshots: [
+            test,
         ],
     },
     {
@@ -81,6 +89,9 @@ export const projects = [
             'https://github.com/rafaelmarcoo/GUI-deal-or-nodeal',
             'https://github.com/rafaelmarcoo/deal-or-nodeal',
         ],
+        screenshots: [
+            test,
+        ],
     },
     {
         title: "Banking System",
@@ -91,6 +102,9 @@ export const projects = [
         ],
         sourceCode: [
             'https://github.com/rafaelmarcoo/banking-system',
+        ],
+        screenshots: [
+            test,
         ],
     },
     {
@@ -106,6 +120,9 @@ export const projects = [
         sourceCode: [
             'https://github.com/rafaelmarcoo/CabsOnline',
         ],
+        screenshots: [
+            test,
+        ],
     },
     {
         title: "Status Posting System",
@@ -118,6 +135,9 @@ export const projects = [
         ],
         sourceCode: [
             'https://github.com/rafaelmarcoo/status-posting-system',
+        ],
+        screenshots: [
+            test,
         ],
     },
 ];
