@@ -7,7 +7,7 @@ const AboutSection = () => {
         <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide">
             About me!
         </h2>
-        <h3 className="pt-4 text-lg sm:text-xl">
+        <h3 className="text-center pt-4 text-lg sm:text-xl p-5">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam voluptatem et nostrum laboriosam qui ut cumque enim consequatur facere? Neque ea ipsum itaque aut incidunt!
         </h3>
         <h2 className="text-2xl sm:text-3xl lg:text-4xl text-center p-5">
@@ -18,7 +18,7 @@ const AboutSection = () => {
                 <div key={index} className="w-full sm:w-1/2 ld:w-1/3 p-2">
                     <div className="p-10 border border-neutral-700">
                         <div>
-                            
+
                         </div>
                         {hobby.title === "Waiter / Barista" && <Coffee />}
                         {hobby.title === "Musician - Guitarist" && <Guitar />}
