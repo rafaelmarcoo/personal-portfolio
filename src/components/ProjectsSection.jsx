@@ -8,11 +8,11 @@ const ProjectsSection = () => {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide">
                 Projects
             </h2>
-            <h3 className="text-center pt-4 text-lg sm:text-xl p-5">
+            <h3 className="text-center text-lg sm:text-xl p-5">
                 Below are projects I have proudly made/currently making!
             </h3>
             {projects.map((project, index) => (
-                <div key={index} className="border border-neutral-400 mb-10">
+                <div key={index} className="border border-neutral-700 rounded-lg mb-5 bg-neutral-800">
                     <div>
                         <h3 className="text-center text-2xl sm:text-3xl p-5">
                             {project.title}
@@ -21,14 +21,14 @@ const ProjectsSection = () => {
                             {project.technology.map((technology, index) => (
                                 <img src={technology} 
                                 alt="logo"
-                                className="w-12" 
+                                className="w-12 mb-2" 
                             />
                             ))}
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row justify-between items-center">
                         <div className="flex flex-col">
-                            <h3 className="text-center ml-3 mr-3 pt-4 text-lg sm:text-xl mb-5">
+                            <h3 className="text-center pt-2 ml-3 mr-3 text-lg sm:text-xl">
                                 {project.description}
                             </h3>
                             {project.title === "Invoicing System" && (
