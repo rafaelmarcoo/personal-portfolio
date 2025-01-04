@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <nav className="sticky top-0 z-50 border-b py-3 border-neutral-600 backdrop-blur-lg">
-            <div className="container relative px-4 mx-auto">
+            <div className="container px-4 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
                         <span className="text-3xl bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">Rafael Marco Manubay</span>
@@ -25,7 +25,7 @@ const Navbar = () => {
                             </li>
                         ))}
                     </ul>
-                    <div className="hidden lg:flex justify-center space-x-12 items-center flex-shrink-0">
+                    <div className="hidden lg:flex justify-center space-x-12 items-center">
                         <a href="#" className="border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-blue-300 to-blue-600">Download CV</a>
                     </div>
                     <div className="lg:hidden md:flex flex-col justify-end">
@@ -33,21 +33,21 @@ const Navbar = () => {
                             {burgerMenu ? <X /> : <Menu />}
                         </button>
                     </div>
-                    {burgerMenu && (
-                        <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
-                            <ul>
-                                {navItems.map((item, index) => (
-                                    <li key={index} className="py-4">
-                                        <a href={index}>{item.label}</a>
-                                    </li>
-                                ))}
-                                <div>
-                                    <a href="#" className="py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-blue-300 to-blue-600">Download CV</a>
-                                </div>
-                            </ul>
-                        </div>
-                    )}
                 </div>
+                {burgerMenu && (
+                    <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden backdrop-blur-md">
+                        <ul>
+                            {navItems.map((item, index) => (
+                                <li key={index} className="py-4">
+                                    <a href={index}>{item.label}</a>
+                                </li>
+                            ))}
+                            <div>
+                                <a href="#" className="py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-blue-300 to-blue-600">Download CV</a>
+                            </div>
+                        </ul>
+                    </div>
+                )}
             </div>
         </nav>
     )
