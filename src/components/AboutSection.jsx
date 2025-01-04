@@ -1,4 +1,5 @@
 import { Dumbbell, Guitar, Coffee } from "lucide-react"
+import { hobbies } from "../constants" 
 
 const AboutSection = () => {
   return (
@@ -13,7 +14,20 @@ const AboutSection = () => {
                 Other than programming, I am a:
             </h2>
         <div className="flex flex-wrap">
-
+            {hobbies.map((hobby, index) => (
+                <div key={index} className="w-full sm:w-1/2 ld:w-1/3 p-2">
+                    <div className="p-10 border border-neutral-700">
+                        <div>
+                            
+                        </div>
+                        {hobby.title === "Waiter / Barista" && <Coffee />}
+                        {hobby.title === "Musician - Guitarist" && <Guitar />}
+                        {hobby.title === "Fitness Enthusiast" && <Dumbbell />}
+                        <h3 className="mt-1 mb-2 text-xl">{hobby.title}</h3>
+                        <p className="text-md text-neutral-500">{hobby.description}</p>
+                    </div>
+                </div>
+            ))}
         </div>
     </div>
   )
