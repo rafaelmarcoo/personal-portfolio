@@ -2,8 +2,8 @@ import testPFP from "../assets/testPFP.jpg";
 
 const HomeSection = () => {
   return (
-    <div className="flex flex-wrap items-center justify-center">
-      <div className="w-full">
+    <div className="flex flex-col border-b border-neutral-700 pb-10 lg:flex-row items-center justify-between ">
+      <div className="lg:w-1/2 p-4">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Hi! I'm Rafael Marco Manubay</h1>
         <h2 className="pt-3 text-xl tracking-wide"
         >
@@ -18,7 +18,7 @@ const HomeSection = () => {
         </h3>
       </div>
 
-      <div className="mt-10 w-full sm:w-1/2 p-4 flex justify-center rounded-full">
+      <div className="lg:w-1/2 mt-10 w-full sm:w-1/2 p-4 flex justify-center">
         <div className="h-64 w-64 sm:h-80 sm:w-80 rounded-full overflow-hidden">
           <img 
             src={testPFP} 
