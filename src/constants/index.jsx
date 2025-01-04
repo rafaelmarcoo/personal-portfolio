@@ -31,8 +31,8 @@ export const techStack = [
 ];
 
 export const programmingLanguages = [
-    'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg',
-    'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg',
@@ -111,8 +111,8 @@ export const projects = [
         title: "CabsOnline",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
         technology: [
-            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg',
-            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg',
@@ -128,8 +128,8 @@ export const projects = [
         title: "Status Posting System",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
         technology: [
-            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg',
-            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg',
         ],
