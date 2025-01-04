@@ -54,9 +54,9 @@ const AboutSection = () => {
         <h2 className="text-2xl sm:text-3xl lg:text-4xl text-center p-5">
                 Other than programming, I am a:
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 border-b border-neutral-700">
             {hobbies.map((hobby, index) => (
-                <div key={index} className="p-6 border border-neutral-700 rounded-lg shadow-lg bg-neutral-800">
+                <div key={index} className="p-6 border border-neutral-700 rounded-lg shadow-lg bg-neutral-800 mb-16">
                         <div className="flex items-center mb-4">
                             {hobby.title === "Waiter / Barista" && <Coffee />}
                             {hobby.title === "Musician - Guitarist" && <Guitar />}

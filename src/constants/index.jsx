@@ -43,3 +43,81 @@ export const databases = [
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg',
     'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg',
 ];
+
+export const projects = [
+    {
+        title: "Invoicing System",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
+        technology: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg',
+        ],
+        sourceCode: [
+            'https://github.com/rafaelmarcoo/invoice-system-frontend',
+            'https://github.com/rafaelmarcoo/invoice-system-backend',
+        ],
+    },
+    {
+        title: "VR Landing Page",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
+        technology: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+        ],
+        sourceCode: [
+            'https://github.com/rafaelmarcoo/vr-landing-page'
+        ],
+    },
+    {
+        title: "Deal Or No Deal",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
+        technology: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original-wordmark.svg',
+        ],
+        sourceCode: [
+            'https://github.com/rafaelmarcoo/GUI-deal-or-nodeal',
+            'https://github.com/rafaelmarcoo/deal-or-nodeal',
+        ],
+    },
+    {
+        title: "Banking System",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
+        technology: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg',
+        ],
+        sourceCode: [
+            'https://github.com/rafaelmarcoo/banking-system',
+        ],
+    },
+    {
+        title: "CabsOnline",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
+        technology: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg',
+        ],
+        sourceCode: [
+            'https://github.com/rafaelmarcoo/CabsOnline',
+        ],
+    },
+    {
+        title: "Status Posting System",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
+        technology: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg',
+        ],
+        sourceCode: [
+            'https://github.com/rafaelmarcoo/status-posting-system',
+        ],
+    },
+];
