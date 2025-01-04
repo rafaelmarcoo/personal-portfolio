@@ -28,7 +28,7 @@ const ProjectsSection = () => {
                     </div>
                     <div className="flex flex-col lg:flex-row justify-between items-center">
                         <div className="flex flex-col">
-                            <h3 className="text-center pt-4 text-lg sm:text-xl mb-5">
+                            <h3 className="text-center ml-3 mr-3 pt-4 text-lg sm:text-xl mb-5">
                                 {project.description}
                             </h3>
                             {project.title === "Invoicing System" && (
