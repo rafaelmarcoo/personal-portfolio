@@ -1,5 +1,5 @@
 import { projects } from "../constants"
-import { Eye } from "lucide-react"
+import { Eye, CircleDot } from "lucide-react"
 
 const ProjectsSection = () => {
   return (
@@ -26,7 +26,7 @@ const ProjectsSection = () => {
                             ))}
                         </div>
                     </div>
-                    <div className="flex flex-col lg:flex-row justify-between items-center">
+                    <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center">
                         <div className="flex flex-col">
                             <h3 className="text-center pt-2 ml-3 mr-3 text-lg sm:text-xl">
                                 {project.description}
