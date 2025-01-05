@@ -4,6 +4,9 @@ import testBarista from "../assets/hobbies/testBarista.jpg";
 import testGuitar from "../assets/hobbies/testGuitar.jpg";
 import testGym from "../assets/hobbies/testGym.jpg";
 import { techStack, programmingLanguages, databases } from "../constants";
+import gym from "../assets/gym.jpg";
+import barista from "../assets/barista.jpg";
+import guitar from "../assets/guitar.jpg";
 
 const AboutSection = () => {
   return (
@@ -12,7 +15,7 @@ const AboutSection = () => {
             About me!
         </h2>
         <h3 className="text-center pt-4 text-lg sm:text-xl p-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam voluptatem et nostrum laboriosam qui ut cumque enim consequatur facere? Neque ea ipsum itaque aut incidunt!
+            I am hardworking, team-oriented, and possess strong communication skills. I thrive under pressure and always manage to have fun while working on challenging tasks!
         </h3>
 
         <div className="flex flex-col mb-10 mt-10">
@@ -64,21 +67,21 @@ const AboutSection = () => {
                             <span className="ml-3 mt-2 mb-2 text-xl font-semibold">{hobby.title}</span>
                         </div>
                         <div className="flex items-center">
-                            <p className="text-md text-neutral-500 flex-grow">
+                            <p className="text-md text-neutral-400 flex-grow">
                                 {hobby.description}
                             </p>
                             {hobby.title === "Waiter / Barista" && <img 
-                                src={testBarista} 
+                                src={barista} 
                                 alt="barista"
                                 className="w-36 h-36 p-3 rounded-full object-cover"
                             />}
                             {hobby.title === "Musician - Guitarist" && <img 
-                                src={testGuitar} 
+                                src={guitar} 
                                 alt="barista"
                                 className="w-36 h-36 p-3 rounded-full object-cover"
                             />}
                             {hobby.title === "Fitness Enthusiast" && <img 
-                                src={testGym} 
+                                src={gym} 
                                 alt="barista"
                                 className="w-36 h-36 p-3 rounded-full object-cover"
                             />}

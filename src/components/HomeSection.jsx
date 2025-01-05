@@ -1,4 +1,6 @@
 import testPFP from "../assets/testPFP.jpg";
+import homeIMG1 from "../assets/homeIMG1.jpg";
+import homeIMG2 from "../assets/homeIMG2.jpg";
 
 const HomeSection = () => {
   return (
@@ -30,14 +32,18 @@ const HomeSection = () => {
           </span>
         </h2>
         <h3 className="pt-4 text-lg sm:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi earum fugiat fugit eos omnis consequuntur ullam quibusdam architecto veritatis harum corrupti illo est alias eum placeat, eius in quasi eaque quo perspiciatis adipisci ab. Vel optio, modi minus esse, ratione porro ea culpa error temporibus velit et perspiciatis dolor perferendis?
+          I am a passionate 
+          <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">{' '}Software Engineering{' '}</span>
+          student with strong 
+          <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">{' '}full-stack web development{' '}</span>
+          experience. I enjoy building innovative projects and continuously learning to improve my skills!
         </h3>
       </div>
 
       <div className="lg:w-1/2 mt-10 w-full sm:w-1/2 p-4 flex justify-center">
         <div className="h-64 w-64 sm:h-80 sm:w-80 rounded-full overflow-hidden">
           <img 
-            src={testPFP} 
+            src={homeIMG2} 
             alt="profilePhoto"
             className="w-full h-full object-cover"
           />
