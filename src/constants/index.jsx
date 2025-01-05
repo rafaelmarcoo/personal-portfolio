@@ -1,3 +1,4 @@
+import { University } from "lucide-react";
 import test from "../assets/projects/test.jpg";
 
 export const navItems = [
@@ -180,3 +181,12 @@ export const experiences = [
         date: "January 2023 - September 2024",
     },
 ]
+
+export const education = {
+    programme: "Bachelor of Engineering (Honours)",
+    major: "Major in Software Engineering",
+    year: "Penultimate Year - 3rd Year",
+    university: "Auckland University of Technology",
+    graduation: "Expected December 2026",
+    gpa: "8.6 GPA"
+};
