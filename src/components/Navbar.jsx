@@ -43,7 +43,7 @@ const Navbar = () => {
                                 </li>
                             ))}
                             <div>
-                                <a href="#" className="py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-blue-300 to-blue-600">Download CV</a>
+                                <a href="#" className="py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 ">Download CV</a>
                             </div>
                         </ul>
                     </div>
