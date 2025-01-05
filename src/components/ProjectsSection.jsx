@@ -17,7 +17,7 @@ const ProjectsSection = () => {
                         <h3 className="text-center text-2xl sm:text-3xl p-5">
                             {project.title}
                         </h3>
-                        <div className="flex flex-wrap overflow-hidden gap-x-5 gap-y-4 justify-center">
+                        <div className="flex flex-wrap p-4 overflow-hidden gap-x-5 gap-y-4 justify-center">
                             {project.technology.map((technology, index) => (
                                 <img src={technology} 
                                 alt="logo"
