@@ -36,7 +36,7 @@ const EducationSection = () => {
             <div className="mt-6 border-t ">
                 <div className="flex items-center justify-center mt-10">
                     <HeartHandshake className="w-10 h-10 mr-2 text-red-400"/>
-                    <h3 className="text-2xl sm:text-3xl lg:text-4xl bg-gradient-to-r">2025 AUT Student Ambassador</h3>
+                    <h3 className="text-2xl sm:text-3xl lg:text-4xl bg-gradient-to-r text-center">AUT Student Ambassador</h3>
                     <HeartHandshake className="w-10 h-10 ml-2 text-red-400"/>
                 </div>
             </div>
