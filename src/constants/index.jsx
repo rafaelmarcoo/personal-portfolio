@@ -52,7 +52,7 @@ export const projects = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
         technology: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
-            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg',
         ],
@@ -145,17 +145,38 @@ export const projects = [
 export const experiences = [
     {
         title: "Full Stack Developer Intern",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat debitis reprehenderit minima saepe, at eos iure, officia fuga nesciunt dolorum labore hic ratione et dolores provident rem ex enim tempore! Delectus pariatur facilis similique aspernatur fugit quam voluptate rerum architecto ducimus, eos impedit quaerat, ea reiciendis magnam ex quo veritatis.",
-        date: "Summer 2024",
+        company: "HexWeb Ltd.",
+        location: "Hawke's Bay",
+        description: [
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+        ],
+        date: "November 2024 - February 2025",
     },
     {
         title: "Waiter / Barista",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat debitis ptate rerum architecto ducimus, eos impedit quaerat, ea reiciendis magnam ex quo veritatis.",
+        company: "The Terrace in The Grand by SkyCity",
+        location: "Auckland",
+        description: [
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+        ],
         date: "Septemper 2024 - Present",
     },
     {
         title: "Waiter / Bartender",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat debitis ovident rem ex enim tempore! Delectus pariatur facilis similique aspernatur fugit quam voluptate rerum architecto ducimus, eos impedit quaerat, ea reiciendis magnam ex quo veritatis.",
+        company: "Fortuna - SkyCity Entertainment Group",
+        location: "Auckland",
+        description: [
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, explicabo?',
+        ],
         date: "January 2023 - September 2024",
     },
 ]
