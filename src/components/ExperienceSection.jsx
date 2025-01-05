@@ -3,7 +3,7 @@ import { experiences } from "../constants"
 
 const ExperienceSection = () => {
   return (
-    <div className="w-full sm:w-3/4 lg:w-2/3 mt-16 px-6 mx-auto">
+    <div id="experience" className="w-full sm:w-3/4 lg:w-2/3 mt-16 px-6 mx-auto scroll-mt-20">
         <div className="text-center">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide mb-10">
                 Experience

@@ -3,7 +3,7 @@ import { Eye } from "lucide-react"
 
 const ProjectsSection = () => {
   return (
-    <div className="mt-16 px-6 sm:px-6mx-auto">
+    <div id="projects" className="mt-16 px-6 sm:px-6mx-auto scroll-mt-20">
         <div className="flex flex-col items-center">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide">
                 Projects

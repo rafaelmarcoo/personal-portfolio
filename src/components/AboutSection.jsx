@@ -7,7 +7,7 @@ import { techStack, programmingLanguages, databases } from "../constants";
 
 const AboutSection = () => {
   return (
-    <div className="mt-16 px-6">
+    <div id="about" className="mt-16 px-6 scroll-mt-20">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide">
             About me!
         </h2>

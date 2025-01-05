@@ -2,7 +2,7 @@ import testPFP from "../assets/testPFP.jpg";
 
 const HomeSection = () => {
   return (
-    <div className="flex flex-col border-b border-neutral-700 pb-10 lg:flex-row items-center justify-between ">
+    <div id="home" className="flex flex-col border-b border-neutral-700 pb-10 lg:flex-row items-center justify-between scroll-mt-16">
       <div className="lg:w-1/2 p-4">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl">Hi! I'm 
           <span className="font-bold tracking-wider">{" "}Rafael Marco Manubay</span>
