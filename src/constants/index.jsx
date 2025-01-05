@@ -190,3 +190,14 @@ export const education = {
     graduation: "Expected December 2026",
     gpa: "8.6 GPA"
 };
+
+export const footerLinks = [
+    {
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg',
+        link: 'https://www.linkedin.com/in/rafaelmarcomanubay/',
+    },
+    {
+        img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg',
+        link: 'https://github.com/rafaelmarcoo/',
+    },
+];
