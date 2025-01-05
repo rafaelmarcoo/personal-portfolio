@@ -19,7 +19,7 @@ const EducationSection = () => {
                     {education.university}
                 </p>
             </div>
-            <ul className="text-md flex flex-col items-center mt-5 space-y-3">
+            <ul className="text-md flex flex-col text-center justify-center items-center mt-5 space-y-3">
                 <li className="flex">
                     <BookCheck className="mr-3 text-blue-500"/>
                     <span>{education.major}</span>
