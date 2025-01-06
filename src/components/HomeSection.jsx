@@ -13,25 +13,29 @@ const HomeSection = () => {
         </h1>
         <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl"
         >
-          <GraduationCap className="mr-2 text-green-400 h-6 w-6 sm:h-7 sm:w-7"/>
-          <span className="bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent">
-          Penultimate / 3rd Year 
+          <GraduationCap className="mr-2 text-green-400 flex-shrink-0"/>
+          <span className="text-sm">
+            Penultimate / 3rd Year 
+            <span className="bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent">
+              {" "}
+              Software Engineering Student
+            </span>
           </span>
-          <span className="ml-2">Software Engineering Student</span>
         </h2>
         <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl"
         >
-          <Cpu className="mr-2 text-blue-300 h-6 w-6 sm:h-7 sm:w-7"/>
-          Experienced with 
-          <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent ml-2">
-            Full Stack Development
+          <Cpu className="mr-2 text-blue-300 flex-shrink-0"/>
+          <span className="text-sm">
+            Experienced with 
+            <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">
+              {" "}
+              Full Stack Development
+            </span>
           </span>
         </h2>
         <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl"> 
-          <HeartHandshake className="mr-2 text-red-600 h-6 w-6 sm:h-7 sm:w-7"/>
-          <span className="bg-gradient-to-r from-red-300 to-red-600 bg-clip-text text-transparent">
-          AUT Student Ambassador
-          </span>
+          <HeartHandshake className="mr-2 text-red-600 flex-shrink-0"/>
+          <span className="text-sm bg-gradient-to-r from-red-300 to-red-600 bg-clip-text text-transparent">AUT Student Ambassador</span>
         </h2>
         <h3 className="pt-4 text-lg sm:text-xl">
           I am a passionate 
