@@ -1,6 +1,8 @@
 import testPFP from "../assets/testPFP.jpg";
 import homeIMG1 from "../assets/homeIMG1.jpg";
 import homeIMG2 from "../assets/homeIMG2.jpg";
+import { GraduationCap, Cpu, HeartHandshake } from "lucide-react"
+
 
 const HomeSection = () => {
   return (
@@ -9,24 +11,24 @@ const HomeSection = () => {
         <h1 className="text-3xl sm:text-4xl lg:text-5xl">Hi! I'm 
           <span className="font-bold tracking-wider">{" "}Rafael Marco Manubay</span>
         </h1>
-        <h2 className="pt-3 text-xl tracking-wide"
+        <h2 className="flex items-center pt-3 text-xl tracking-wide"
         >
+          <GraduationCap className="mr-2 text-green-400"/>
           <span className="bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent">
           Penultimate / 3rd Year 
           </span>
-          {" "}
-          Software Engineering Student
-          
+          <span className="ml-2">Software Engineering Student</span>
         </h2>
-        <h2 className="pt-3 text-xl tracking-wide"
+        <h2 className="flex items-center pt-3 text-xl tracking-wide"
         >
+          <Cpu className="mr-2 text-blue-300"/>
           Experienced with 
-          <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">
-            {" "}
+          <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent ml-2">
             Full Stack Development
           </span>
         </h2>
-        <h2 className="pt-3 text-xl tracking-wide"> 
+        <h2 className="flex items-center pt-3 text-xl tracking-wide"> 
+          <HeartHandshake className="mr-2 text-red-600"/>
           <span className="bg-gradient-to-r from-red-300 to-red-600 bg-clip-text text-transparent">
           AUT Student Ambassador
           </span>
