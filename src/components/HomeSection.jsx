@@ -11,24 +11,24 @@ const HomeSection = () => {
         <h1 className="text-3xl sm:text-4xl lg:text-5xl">Hi! I'm 
           <span className="font-bold tracking-wider">{" "}Rafael Marco Manubay</span>
         </h1>
-        <h2 className="flex items-center pt-3 text-xl tracking-wide"
+        <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl"
         >
-          <GraduationCap className="mr-2 text-green-400"/>
+          <GraduationCap className="mr-2 text-green-400 h-6 w-6 sm:h-7 sm:w-7"/>
           <span className="bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent">
           Penultimate / 3rd Year 
           </span>
           <span className="ml-2">Software Engineering Student</span>
         </h2>
-        <h2 className="flex items-center pt-3 text-xl tracking-wide"
+        <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl"
         >
-          <Cpu className="mr-2 text-blue-300"/>
+          <Cpu className="mr-2 text-blue-300 h-6 w-6 sm:h-7 sm:w-7"/>
           Experienced with 
           <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent ml-2">
             Full Stack Development
           </span>
         </h2>
-        <h2 className="flex items-center pt-3 text-xl tracking-wide"> 
-          <HeartHandshake className="mr-2 text-red-600"/>
+        <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl"> 
+          <HeartHandshake className="mr-2 text-red-600 h-6 w-6 sm:h-7 sm:w-7"/>
           <span className="bg-gradient-to-r from-red-300 to-red-600 bg-clip-text text-transparent">
           AUT Student Ambassador
           </span>
