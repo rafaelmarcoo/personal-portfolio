@@ -8,6 +8,19 @@ const Navbar = () => {
         setBurgerMenu(!burgerMenu);
     };
 
+    const handleScroll = (event, targetId) => {
+        event.preventDefault();
+        const targetElement = document.getElementById(targetId);
+        if(targetElement) {
+            const offsetTop = targetElement.offsetTop - 80;
+            window.scrollTo({
+                top: offsetTop,
+                behavior: "smooth",
+            });
+        }
+        setBurgerMenu(false);
+    }
+
     return (
         <nav className="sticky top-0 z-50 border-b py-3 border-neutral-600 backdrop-blur-lg">
             <div className="container px-4 mx-auto relative text-sm">
@@ -18,7 +31,10 @@ const Navbar = () => {
                     <ul className="hidden lg:flex ml-10 space-x-10">
                         {navItems.map((item, index) => (
                             <li key={index} className="">
-                                <a href={item.href} className="hover:text-blue-500 transition-colors"
+                                <a 
+                                    href={item.href} 
+                                    onClick={(e) => handleScroll(e, item.href)}
+                                    className="hover:text-blue-500 transition-colors"
                                 >
                                     {item.label}
                                 </a>
@@ -39,7 +55,12 @@ const Navbar = () => {
                         <ul>
                             {navItems.map((item, index) => (
                                 <li key={index} className="py-4">
-                                    <a href={item.href} onClick={toggleMenuBar}>{item.label}</a>
+                                    <a 
+                                        href={item.href} 
+                                        onClick={(e) => handleScroll(e, item.href)}
+                                    >
+                                        {item.label}
+                                    </a>
                                 </li>
                             ))}
                             <div>

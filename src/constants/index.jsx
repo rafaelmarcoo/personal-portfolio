@@ -2,11 +2,11 @@ import { University } from "lucide-react";
 import test from "../assets/projects/test.jpg";
 
 export const navItems = [
-    { label: "Home", href:"#home" },
-    { label: "About", href:"#about" },
-    { label: "Projects", href:"#projects" },
-    { label: "Experience", href:"#experience" },
-    { label: "Education", href:"#education" },
+    { label: "Home", href:"home" },
+    { label: "About", href:"about" },
+    { label: "Projects", href:"projects" },
+    { label: "Experience", href:"experience" },
+    { label: "Education", href:"education" },
 ];
 
 export const hobbies = [
