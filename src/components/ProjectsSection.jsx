@@ -19,10 +19,11 @@ const ProjectsSection = () => {
                         </h3>
                         <div className="flex flex-wrap p-4 overflow-hidden gap-x-5 gap-y-4 justify-center">
                             {project.technology.map((technology, index) => (
-                                <img src={technology} 
-                                alt="logo"
-                                className="w-12 mb-2 object-contain" 
-                            />
+                                <img 
+                                    src={technology} 
+                                    alt="logo"
+                                    className="w-12 mb-2 object-contain" 
+                                />
                             ))}
                         </div>
                     </div>
