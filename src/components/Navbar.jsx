@@ -51,7 +51,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 {burgerMenu && (
-                    <div className="fixed top-[60px] left-0 right-0 text-lg text-center lg:hidden border border-neutral-700 w-full p-12 flex flex-col justify-center items-center bg-neutral-900 space-y-6">
+                    <div className="fixed top-[53px] left-0 right-0 text-lg text-center lg:hidden border border-neutral-700 w-full p-12 flex flex-col justify-center items-center bg-neutral-900 space-y-6">
                         <ul>
                             {navItems.map((item, index) => (
                                 <li key={index} className="py-4">

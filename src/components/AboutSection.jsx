@@ -21,7 +21,7 @@ const AboutSection = () => {
             </h3>
         </div>
         <div className="border-t border-neutral-700 mt-10">
-            <div className="mt-6 flex justify-center space-x-20 items-center">
+            <div className="mt-6 flex justify-center space-x-10 items-center">
                 <img 
                     src={az900}
                     className="w-40 hover:scale-105 transition-transform"
@@ -34,9 +34,9 @@ const AboutSection = () => {
             </div>
         </div>
         <div className="flex flex-col mb-10 mt-10">
-            <div className="border-t border-neutral-700">
+            <div className="border-t border-neutral-700 ">
                 <h3 className="text-center pt-4 text-lg sm:text-xl p-5">Main Tech Stack</h3>
-                <div className="flex gap-x-5 gap-y-4 space-x-5 justify-center pb-3">
+                <div className="flex gap-y-4 space-x-5 justify-center pb-3 ">
                     {techStack.map((url, index) => (
                         <img src={url} 
                             alt="logo"
