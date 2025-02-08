@@ -40,7 +40,9 @@ const HomeSection = () => {
         <h3 className="pt-4 text-lg sm:text-xl">
           I am a passionate 
           <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">{' '}Software Engineering{' '}</span>
-          student with strong 
+          student with an
+          <span className="bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent"> {' '}8.6/9.0 GPA {' '}</span> 
+          and with strong 
           <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">{' '}full-stack web development{' '}</span>
           experience. I enjoy building innovative projects and continuously learning to improve my skills!
         </h3>

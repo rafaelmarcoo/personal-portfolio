@@ -32,7 +32,7 @@ const ProjectsSection = () => {
                             <h3 className="text-center pt-2 ml-3 mr-3 text-lg sm:text-xl">
                                 {project.description}
                             </h3>
-                            {project.title === "Invoicing System" && (
+                            {project.title === "InvoicePro" && (
                                 <div className="flex flex-wrap lg:flex-row justify-center mt-10 gap-x-5 mb-10 gap-y-4">
                                     <a 
                                         href={project.sourceCode[0]} 

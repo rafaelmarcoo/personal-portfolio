@@ -7,17 +7,32 @@ import { techStack, programmingLanguages, databases } from "../constants";
 import gym from "../assets/gym.jpg";
 import barista from "../assets/barista.jpg";
 import guitar from "../assets/guitar.jpg";
+import az900 from "../assets/az900.png";
 
 const AboutSection = () => {
   return (
     <div id="about" className="mt-16 px-6 scroll-mt-20">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide">
-            About me!
-        </h2>
-        <h3 className="text-center pt-4 text-lg sm:text-xl p-5">
-            I am hardworking, team-oriented, and possess strong communication skills. I thrive under pressure and always manage to have fun while working on challenging tasks!
-        </h3>
-
+        <div>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide">
+                About me!
+            </h2>
+            <h3 className="text-center pt-4 text-lg sm:text-xl p-5">
+                I am hardworking, team-oriented, and possess strong communication skills. I thrive under pressure and always manage to have fun while working on challenging tasks!
+            </h3>
+        </div>
+        <div className="border-t border-neutral-700 mt-10">
+            <div className="mt-6 flex justify-center space-x-20 items-center">
+                <img 
+                    src={az900}
+                    className="w-40 hover:scale-105 transition-transform"
+                />
+                <div>
+                    <h2 className="text-2xl hover:scale-105 transition-transform">
+                        Currently pursuing towards the <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">AZ-900 Azure Fundamentals Certification</span> !
+                    </h2>
+                </div>
+            </div>
+        </div>
         <div className="flex flex-col mb-10 mt-10">
             <div className="border-t border-neutral-700">
                 <h3 className="text-center pt-4 text-lg sm:text-xl p-5">Main Tech Stack</h3>
@@ -25,7 +40,7 @@ const AboutSection = () => {
                     {techStack.map((url, index) => (
                         <img src={url} 
                             alt="logo"
-                            className="w-16" 
+                            className="w-16 transition-transform hover:scale-110" 
                         />
                     ))}
                 </div>
@@ -36,7 +51,7 @@ const AboutSection = () => {
                     {programmingLanguages.map((url, index) => (
                         <img src={url} 
                             alt="logo"
-                            className="w-16" 
+                            className="w-16 transition-transform hover:scale-110" 
                         />
                     ))}
                 </div>
@@ -47,13 +62,12 @@ const AboutSection = () => {
                     {databases.map((url, index) => (
                         <img src={url} 
                             alt="logo"
-                            className="w-16" 
+                            className="w-16 transition-transform hover:scale-110" 
                         />
                     ))}
                 </div>
             </div>
         </div>
-
         <h2 className="text-2xl sm:text-3xl lg:text-4xl text-center p-5">
                 Other than programming, I am a:
         </h2>
