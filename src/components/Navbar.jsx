@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className="max-w-7xl px-8 mx-auto text-sm">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
-                        <span className="text-3xl bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent hover:text-red-400 transition-colors duration-200">Rafael Marco Manubay</span>
+                        <span className="text-xl md:text-2xl lg:text-3xl bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent hover:text-red-400 transition-colors duration-200">Rafael Marco Manubay</span>
                     </div>
                     <ul className="hidden lg:flex ml-10 space-x-10 text-lg">
                         {navItems.map((item, index) => (

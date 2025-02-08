@@ -3,8 +3,8 @@ import { Eye, CircleDot } from "lucide-react"
 
 const ProjectsSection = () => {
   return (
-    <div id="projects" className="mt-16 px-6 sm:px-6mx-auto scroll-mt-20">
-        <div className="flex flex-col items-center">
+    <div id="projects" className="w-full">
+        <div className="max-w-5xl mt-16 px-6 sm:px-6 mx-auto scroll-mt-20 flex flex-col items-center">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide">
                 Projects
             </h2>
@@ -12,7 +12,7 @@ const ProjectsSection = () => {
                 Below are projects I have proudly made/currently making!
             </h3>
             {projects.map((project, index) => (
-                <div key={index} className="border border-neutral-700 rounded-lg mb-5 bg-neutral-800">
+                <div key={index} className="border border-neutral-700 rounded-lg mb-5 p-5 bg-neutral-800">
                     <div>
                         <h3 className="text-center text-2xl sm:text-3xl p-5">
                             {project.title}
