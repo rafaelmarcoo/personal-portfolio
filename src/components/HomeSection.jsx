@@ -9,9 +9,9 @@ const HomeSection = () => {
     <div id="home" className="flex flex-col border-b border-neutral-700 pb-10 lg:flex-row items-center justify-between scroll-mt-16">
       <div className="lg:w-1/2 p-4">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl">Hi! I'm 
-          <span className="font-bold tracking-wider">{" "}Rafael Marco Manubay</span>
+          <span className="font-bold tracking-wider hover:text-blue-300 transition-colors duration-200">{" "}Rafael Marco Manubay</span>
         </h1>
-        <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl"
+        <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl transition-transform hover:scale-105"
         >
           <GraduationCap className="mr-2 text-green-400 flex-shrink-0"/>
           <span className="text-sm">
@@ -22,7 +22,7 @@ const HomeSection = () => {
             </span>
           </span>
         </h2>
-        <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl"
+        <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl transition-transform hover:scale-105"
         >
           <Cpu className="mr-2 text-blue-300 flex-shrink-0"/>
           <span className="text-sm">
@@ -33,7 +33,7 @@ const HomeSection = () => {
             </span>
           </span>
         </h2>
-        <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl"> 
+        <h2 className="flex items-center pt-3 tracking-wide text-lg sm:text-xl transition-transform hover:scale-105"> 
           <HeartHandshake className="mr-2 text-red-600 flex-shrink-0"/>
           <span className="text-sm bg-gradient-to-r from-red-300 to-red-600 bg-clip-text text-transparent">AUT Student Ambassador</span>
         </h2>
