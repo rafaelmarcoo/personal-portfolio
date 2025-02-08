@@ -26,9 +26,9 @@ const Navbar = () => {
             <div className="max-w-7xl px-8 mx-auto text-sm">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
-                        <span className="text-3xl bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">Rafael Marco Manubay</span>
+                        <span className="text-3xl bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent hover:text-red-400 transition-colors duration-150">Rafael Marco Manubay</span>
                     </div>
-                    <ul className="hidden lg:flex ml-10 space-x-10">
+                    <ul className="hidden lg:flex ml-10 space-x-10 text-lg">
                         {navItems.map((item, index) => (
                             <li key={index} className="">
                                 <a 
@@ -42,7 +42,7 @@ const Navbar = () => {
                         ))}
                     </ul>
                     <div className="hidden lg:flex justify-center space-x-12 items-center">
-                        <a href="#" className="border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-blue-300 to-blue-600">Download CV</a>
+                        <a href="#" className="border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 transition-transform hover:scale-110">Download CV</a>
                     </div>
                     <div className="lg:hidden md:flex flex-col justify-end">
                         <button onClick={toggleMenuBar}>
@@ -51,20 +51,21 @@ const Navbar = () => {
                     </div>
                 </div>
                 {burgerMenu && (
-                    <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden backdrop-blur-md">
+                    <div className="fixed top-[60px] left-0 right-0 text-lg text-center lg:hidden border border-neutral-700 w-full p-12 flex flex-col justify-center items-center bg-neutral-900 space-y-6">
                         <ul>
                             {navItems.map((item, index) => (
                                 <li key={index} className="py-4">
                                     <a 
                                         href={item.href} 
                                         onClick={(e) => handleScroll(e, item.href)}
+                                        className="hover:text-blue-500 transition-colors duration-200"
                                     >
                                         {item.label}
                                     </a>
                                 </li>
                             ))}
-                            <div>
-                                <a href="#" className="py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 ">Download CV</a>
+                            <div className="mt-6 transition-transform hover:scale-105">
+                                <a href="#" className="py-3 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-blue-300 to-blue-600  ">Download CV</a>
                             </div>
                         </ul>
                     </div>
