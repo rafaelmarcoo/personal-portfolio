@@ -73,7 +73,7 @@ const AboutSection = () => {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 border-b border-neutral-700">
             {hobbies.map((hobby, index) => (
-                <div key={index} className="p-6 border border-neutral-700 rounded-lg shadow-lg bg-neutral-800 mb-16">
+                <div key={index} className="p-6 border border-neutral-700 rounded-lg shadow-lg bg-neutral-800 mb-16 hover:scale-105 transition-transform">
                         <div className="flex items-center mb-4">
                             {hobby.title === "Waiter / Barista" && <Coffee />}
                             {hobby.title === "Musician - Guitarist" && <Guitar />}
