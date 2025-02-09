@@ -9,7 +9,7 @@ const FooterSection = () => {
             >
                 <img 
                     src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg'  
-                    className="w-10 h-10"
+                    className="w-10 h-10 hover:scale-110 transition-transform"
                 />
             </a>
             <a 
@@ -18,7 +18,7 @@ const FooterSection = () => {
             >
                 <img 
                     src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg'
-                    className="w-10 h-10 bg-neutral-50 rounded"
+                    className="w-10 h-10 bg-neutral-50 rounded hover:scale-110 transition-transform"
                 />
             </a>
         </div>
@@ -29,15 +29,15 @@ const FooterSection = () => {
             <div className="flex justify-center space-x-10 mb-10">
                 <img 
                     src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg'
-                    className="w-10 h-10"
+                    className="w-10 h-10 hover:scale-110 transition-transform"
                 />
                 <img 
                     src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg'
-                    className="w-10 h-10"
+                    className="w-10 h-10 hover:scale-110 transition-transform"
                 />
                 <img 
                     src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg'
-                    className="w-10 h-10 bg-neutral-50 rounded"
+                    className="w-10 h-10 bg-neutral-50 rounded hover:scale-110 transition-transform"
                 />
             </div>
         </div>

@@ -28,7 +28,7 @@ const AboutSection = () => {
                 />
                 <div>
                     <h2 className="text-2xl hover:scale-105 transition-transform">
-                        Currently pursuing towards the <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">AZ-900 Azure Fundamentals Certification</span> !
+                        Currently pursuing the <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">AZ-900 Azure Fundamentals Certification</span> !
                     </h2>
                 </div>
             </div>
