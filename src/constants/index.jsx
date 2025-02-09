@@ -66,8 +66,40 @@ export const projects = [
         ],
     },
     {
+        title: "KitaKits!",
+        description: "KitaKits! is a social media/chat platform currently under planning and development, inspired by the Filipino expression “KitaKits!” meaning “See you later!”",
+        technology: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg',
+        ],
+        sourceCode: [
+            'https://github.com/rafaelmarcoo/KitaKits--frontend',
+            'https://github.com/rafaelmarcoo/KitaKits--backend',
+        ],
+        screenshots: [
+            test,
+        ],
+    },
+    {
+        title: "Obar Website & Booking System",
+        description: "Developed a website for a Obar Auckland, which is a restaurant my mates and I often go to, featuring an aesthetic front-end with a photo gallery. Implemented a booking system for customers and an admin panel for employees to manage reservations efficiently.",
+        technology: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg',
+        ],
+        sourceCode: [
+            'https://github.com/rafaelmarcoo/obar-website-and-admin',
+        ],
+        screenshots: [
+            test,
+        ],
+    },
+    {
         title: "VR Landing Page",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
+        description: "A Front-End Project I made to learn TailwindCSS and improve my Front-End skills. This project helped me understand utility-first CSS, responsive design, and component-based styling.",
         technology: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',

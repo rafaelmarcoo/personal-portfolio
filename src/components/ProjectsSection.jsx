@@ -22,7 +22,7 @@ const ProjectsSection = () => {
                                 <img 
                                     src={technology} 
                                     alt="logo"
-                                    className="w-12 mb-2 object-contain" 
+                                    className="w-12 h-12 object-contain mb-2" 
                                 />
                             ))}
                         </div>
@@ -55,6 +55,61 @@ const ProjectsSection = () => {
                                             className="w-10 mr-3"
                                         /> 
                                         Github - Back End
+                                    </a>
+                                    <a 
+                                        href="#" 
+                                        className="flex items-center py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-orange-300 to-orange-600"
+                                    >
+                                        <Eye className="mr-3"/>
+                                        View Live *coming soon*
+                                    </a>
+                                </div>
+                            )}
+                            {project.title === "KitaKits!" && (
+                                <div className="flex flex-wrap lg:flex-row justify-center mt-10 gap-x-5 mb-10 gap-y-4">
+                                    <a 
+                                        href={project.sourceCode[0]} 
+                                        target="_blank"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                    >
+                                        <img 
+                                            src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
+                                            className="w-10 mr-3"
+                                        /> 
+                                        Github - Front End
+                                    </a>
+                                    <a 
+                                        href={project.sourceCode[1]} 
+                                        target="_blank" 
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                    >
+                                        <img 
+                                            src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
+                                            className="w-10 mr-3"
+                                        /> 
+                                        Github - Back End
+                                    </a>
+                                    <a 
+                                        href="#" 
+                                        className="flex items-center py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-orange-300 to-orange-600"
+                                    >
+                                        <Eye className="mr-3"/>
+                                        View Live *coming soon*
+                                    </a>
+                                </div>
+                            )}
+                            {project.title === "Obar Website & Booking System" && (
+                                <div className="flex flex-wrap justify-center mt-10 gap-x-5 mb-10 gap-y-4">
+                                    <a 
+                                        href={project.sourceCode[0]} 
+                                        target="_blank"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                    >
+                                        <img 
+                                            src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
+                                            className="w-10 mr-3"
+                                        /> 
+                                        Github
                                     </a>
                                     <a 
                                         href="#" 
@@ -159,9 +214,9 @@ const ProjectsSection = () => {
                                 </div>
                             )}
                         </div>
-                        <div className="w-full lg:w-auto">
+                        <div className="">
                             {project.screenshots.map((screenshot, index) => (
-                                <img key={index} src={screenshot} className="flex-shrink-0 w-50 p-10"/>
+                                <img key={index} src={screenshot} className="w-50 h-50 object-contain p-10"/>
                             ))}
                         </div>
                     </div>
