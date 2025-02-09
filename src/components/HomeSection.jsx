@@ -29,7 +29,7 @@ const HomeSection = () => {
             Experienced with 
             <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">
               {" "}
-              Full Stack Development
+              Full-Stack Development
             </span>
           </span>
         </h2>
@@ -49,7 +49,7 @@ const HomeSection = () => {
       </div>
 
       <div className="lg:w-1/2 mt-10 w-full sm:w-1/2 p-4 flex justify-center">
-        <div className="h-64 w-64 sm:h-80 sm:w-80 rounded-full overflow-hidden">
+        <div className="h-64 w-64 sm:h-80 sm:w-80 rounded-full overflow-hidden hover:scale-110 transition-transform">
           <img 
             src={homeIMG2} 
             alt="profilePhoto"
