@@ -20,21 +20,21 @@ const EducationSection = () => {
                 </p>
             </div>
             <ul className="text-md flex flex-col text-center justify-center items-center mt-5 space-y-3">
-                <li className="flex">
+                <li className="flex hover:scale-110 transition-transform">
                     <BookCheck className="mr-3 text-blue-500"/>
                     <span>{education.major}</span>
                 </li>
-                <li className="flex">
+                <li className="flex hover:scale-110 transition-transform">
                     <BookCheck className="mr-3 text-blue-500"/>
                     <span>{education.year}</span>
                 </li>
-                <li className="flex">
+                <li className="flex hover:scale-110 transition-transform">
                     <BookCheck className="mr-3 text-green-500"/>
                     <span className="text-xl bg-gradient-to-r from-green-200 to-green-600 text-transparent bg-clip-text">{education.gpa}</span>
                 </li>
             </ul>
             <div className="mt-6 border-t ">
-                <div className="flex items-center justify-center mt-10">
+                <div className="flex items-center justify-center mt-10 hover:scale-110 transition-transform">
                     <HeartHandshake className="w-10 h-10 mr-2 text-red-400"/>
                     <h3 className="text-2xl sm:text-3xl lg:text-4xl bg-gradient-to-r text-center">AUT Student Ambassador</h3>
                     <HeartHandshake className="w-10 h-10 ml-2 text-red-400"/>
