@@ -1,34 +1,59 @@
-import { Dumbbell, Guitar, Coffee } from "lucide-react";
+import { Dumbbell, Guitar, Coffee, CircleCheck, NotebookPen } from "lucide-react";
 import { hobbies } from "../constants";
-import testBarista from "../assets/hobbies/testBarista.jpg";
-import testGuitar from "../assets/hobbies/testGuitar.jpg";
-import testGym from "../assets/hobbies/testGym.jpg";
 import { techStack, programmingLanguages, databases } from "../constants";
 import gym from "../assets/gym.jpg";
 import barista from "../assets/barista.jpg";
 import guitar from "../assets/guitar.jpg";
 import az900 from "../assets/az900.png";
+import az104 from "../assets/az104.png";
 
 const AboutSection = () => {
   return (
     <div id="about" className="mt-16 px-6 scroll-mt-20">
-        <div>
+        <div className="px-6 md:px-12 lg:px-20">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide">
                 About me!
             </h2>
-            <h3 className="text-center pt-4 text-lg sm:text-xl p-5">
+            <h3 className="text-center pt-4 text-lg sm:text-xl p-5 max-w-3xl mx-auto">
                 I am hardworking, team-oriented, and possess strong communication skills. I thrive under pressure and always manage to have fun while working on challenging tasks!
             </h3>
-        </div>
-        <div className="border-t border-neutral-700 mt-10">
-            <div className="mt-6 flex justify-center space-x-10 items-center">
-                <img 
-                    src={az900}
-                    className="w-40 hover:scale-105 transition-transform"
-                />
-                <div>
-                    <h2 className="text-2xl hover:scale-105 transition-transform">
-                        Currently pursuing the <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">AZ-900 Azure Fundamentals Certification</span> !
+            <div className="border-t border-neutral-700 mt-10 pt-6">
+                <div className="flex flex-wrap justify-center items-center gap-6">
+                    <img 
+                        src={az104}
+                        className="w-32 sm:w-40 md:w-48 hover:scale-105 transition-transform"
+                    />
+                    <h2 className="text-xl sm:text-2xl flex items-center flex-wrap justify-center text-center md:text-left">
+                        <NotebookPen className="mr-3 text-blue-500" />
+                        Currently pursuing the&nbsp; 
+                        <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">
+                            AZ-104 Azure Administrator Associate!
+                        </span>
+                        <a 
+                            className="ml-3 mt-3 sm:mt-0 px-3 py-2 border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 text-white text-sm sm:text-base font-semibold transition hover:scale-105"
+                        >
+                            Coming Soon
+                        </a>
+                    </h2>
+                </div>
+                <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
+                    <img 
+                        src={az900}
+                        className="w-32 sm:w-40 md:w-48 hover:scale-105 transition-transform"
+                    />
+                    <h2 className="text-xl sm:text-2xl flex items-center flex-wrap justify-center text-center md:text-left">
+                        <CircleCheck className="mr-3 text-green-500" />
+                        Successfully earned the&nbsp;
+                        <span className="bg-gradient-to-r from-green-300 to-green-600 bg-clip-text text-transparent">
+                            AZ-900 Azure Fundamentals Certification!
+                        </span>
+                        <a 
+                            href="https://learn.microsoft.com/api/credentials/share/en-us/RafaelMarcoManubay-8717/8485735ED3E6899F?sharingId=2BC03C20EE2E8C13"
+                            target="_blank"
+                            className="ml-3 mt-3 sm:mt-0 px-3 py-2 border border-neutral-700 rounded-md bg-gradient-to-r from-green-300 to-green-600 text-white text-sm sm:text-base font-semibold transition hover:scale-105"
+                        >
+                            View Certificate
+                        </a>
                     </h2>
                 </div>
             </div>

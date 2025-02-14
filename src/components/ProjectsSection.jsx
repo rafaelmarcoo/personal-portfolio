@@ -4,7 +4,7 @@ import { Eye, CircleDot } from "lucide-react"
 const ProjectsSection = () => {
   return (
     <div id="projects" className="w-full">
-        <div className="max-w-5xl mt-16 px-6 sm:px-6 mx-auto scroll-mt-20 flex flex-col items-center">
+        <div className="max-w-3xl mt-16 px-6 sm:px-6 mx-auto scroll-mt-20 flex flex-col items-center">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide">
                 Projects
             </h2>
@@ -22,7 +22,7 @@ const ProjectsSection = () => {
                                 <img 
                                     src={technology} 
                                     alt="logo"
-                                    className="w-12 h-12 object-contain mb-2" 
+                                    className="w-12 h-12 object-contain mb-2 transition-transform hover:scale-110" 
                                 />
                             ))}
                         </div>
@@ -37,7 +37,7 @@ const ProjectsSection = () => {
                                     <a 
                                         href={project.sourceCode[0]} 
                                         target="_blank"
-                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2 transition-transform hover:scale-110"
                                     >
                                         <img 
                                             src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
@@ -48,7 +48,7 @@ const ProjectsSection = () => {
                                     <a 
                                         href={project.sourceCode[1]} 
                                         target="_blank" 
-                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2 transition-transform hover:scale-110"
                                     >
                                         <img 
                                             src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
@@ -57,8 +57,7 @@ const ProjectsSection = () => {
                                         Github - Back End
                                     </a>
                                     <a 
-                                        href="#" 
-                                        className="flex items-center py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-orange-300 to-orange-600"
+                                        className="flex items-center py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-orange-300 to-orange-600 transition-transform hover:scale-110"
                                     >
                                         <Eye className="mr-3"/>
                                         View Live *coming soon*
@@ -70,7 +69,7 @@ const ProjectsSection = () => {
                                     <a 
                                         href={project.sourceCode[0]} 
                                         target="_blank"
-                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2 transition-transform hover:scale-110"
                                     >
                                         <img 
                                             src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
@@ -81,7 +80,7 @@ const ProjectsSection = () => {
                                     <a 
                                         href={project.sourceCode[1]} 
                                         target="_blank" 
-                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2 transition-transform hover:scale-110"
                                     >
                                         <img 
                                             src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
@@ -90,8 +89,7 @@ const ProjectsSection = () => {
                                         Github - Back End
                                     </a>
                                     <a 
-                                        href="#" 
-                                        className="flex items-center py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-orange-300 to-orange-600"
+                                        className="flex items-center py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-orange-300 to-orange-600 transition-transform hover:scale-110"
                                     >
                                         <Eye className="mr-3"/>
                                         View Live *coming soon*
@@ -103,7 +101,7 @@ const ProjectsSection = () => {
                                     <a 
                                         href={project.sourceCode[0]} 
                                         target="_blank"
-                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2 transition-transform hover:scale-110"
                                     >
                                         <img 
                                             src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
@@ -112,8 +110,9 @@ const ProjectsSection = () => {
                                         Github
                                     </a>
                                     <a 
-                                        href="#" 
-                                        className="flex items-center py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-orange-300 to-orange-600"
+                                        href="https://testobarauckland.vercel.app/" 
+                                        target="_blank"
+                                        className="flex items-center py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-orange-300 to-orange-600 transition-transform hover:scale-110"
                                     >
                                         <Eye className="mr-3"/>
                                         View Live
@@ -125,7 +124,7 @@ const ProjectsSection = () => {
                                     <a 
                                         href={project.sourceCode[0]} 
                                         target="_blank"
-                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2 transition-transform hover:scale-110"
                                     >
                                         <img 
                                             src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
@@ -134,8 +133,9 @@ const ProjectsSection = () => {
                                         Github
                                     </a>
                                     <a 
-                                        href="#" 
-                                        className="flex items-center py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-orange-300 to-orange-600"
+                                        href="https://vr-landing-page-omega-nine.vercel.app/" 
+                                        target="_blank"
+                                        className="flex items-center py-2 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-orange-300 to-orange-600 transition-transform hover:scale-110"
                                     >
                                         <Eye className="mr-3"/>
                                         View Live
@@ -147,7 +147,7 @@ const ProjectsSection = () => {
                                     <a 
                                         href={project.sourceCode[0]} 
                                         target="_blank" 
-                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2 transition-transform hover:scale-110"
                                     >
                                         <img 
                                             src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
@@ -158,7 +158,7 @@ const ProjectsSection = () => {
                                     <a 
                                         href={project.sourceCode[1]} 
                                         target="_blank" 
-                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2 transition-transform hover:scale-110"
                                     >
                                         <img 
                                             src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
@@ -173,7 +173,7 @@ const ProjectsSection = () => {
                                     <a 
                                         href={project.sourceCode[0]} 
                                         target="_blank"
-                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2 transition-transform hover:scale-110"
                                     >
                                         <img 
                                             src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
@@ -188,7 +188,7 @@ const ProjectsSection = () => {
                                     <a 
                                         href={project.sourceCode[0]} 
                                         target="_blank"
-                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2 transition-transform hover:scale-110"
                                     >
                                         <img 
                                             src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
@@ -203,7 +203,7 @@ const ProjectsSection = () => {
                                     <a 
                                         href={project.sourceCode[0]} 
                                         target="_blank" 
-                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2"
+                                        className="flex items-center border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 p-2 transition-transform hover:scale-110"
                                     >
                                         <img 
                                             src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
@@ -214,11 +214,11 @@ const ProjectsSection = () => {
                                 </div>
                             )}
                         </div>
-                        <div className="">
+                        {/* <div className="">
                             {project.screenshots.map((screenshot, index) => (
                                 <img key={index} src={screenshot} className="w-50 h-50 object-contain p-10"/>
                             ))}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             ))}

@@ -67,7 +67,7 @@ export const projects = [
     },
     {
         title: "KitaKits!",
-        description: "KitaKits! is a social media/chat platform currently under planning and development, inspired by the Filipino expression “KitaKits!” meaning “See you later!”",
+        description: "KitaKits! is an innovative social media and chat platform under planning and development, designed to help users effortlessly using AI make plans, explore locations, and more. Inspired by the Filipino phrase `KitaKits!` meaning `See you later!`, our platform brings people together with ease, making everyday interactions smarter and more engaging.",
         technology: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
@@ -113,7 +113,7 @@ export const projects = [
     },
     {
         title: "Deal Or No Deal",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
+        description: "This project is a Java-based implementation of the popular television game show `Deal or No Deal`. The game simulates the experience of choosing cases, dealing with the banker, and deciding whether to keep or switch cases. The project demonstrates the application of Object-Oriented Programming (OOP) principles and SOLID design principles, all concepts I have learned at university.",
         technology: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original-wordmark.svg',
@@ -128,7 +128,7 @@ export const projects = [
     },
     {
         title: "Banking System",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
+        description: "A banking application developed using Java and Java Swing, with Java Database Connectivity (JDBC) for MySQL integration. It features a login system, account creation functionality, deposit and withdrawal capabilities, and the ability to view transaction history.",
         technology: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg',
@@ -142,7 +142,7 @@ export const projects = [
     },
     {
         title: "CabsOnline",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
+        description: "As part of my coursework, I developed a cab booking system named 'CabsOnline.' This system is designed to facilitate cab bookings through a user-friendly form, which then sends the requests to the admin side for processing and management. Admins can prioritize viewing and managing all booking requests within a 2-hour window.",
         technology: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
@@ -159,7 +159,7 @@ export const projects = [
     },
     {
         title: "Status Posting System",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut magni modi dolorum eaque sequi earum in itaque odit corporis id dicta, sapiente delectus numquam fugit illum aliquam, aliquid recusandae",
+        description: "For my coursework, I created a Status Posting Platform utilizing HTML/CSS to design an intuitive and responsive web interface, PHP for backend functionality, and MySQL for database integration. The aim of this project is to offer a user-friendly platform where users can effortlessly share and search for updates and statuses.",
         technology: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
