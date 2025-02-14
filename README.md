@@ -6,5 +6,6 @@ Welcome to my personal portfolio! Here, you'll find my projects, skills, and exp
 
 
 ## Tech Used
-ReactJS, TailwindCSS
+- ReactJS
+- TailwindCSS
 
