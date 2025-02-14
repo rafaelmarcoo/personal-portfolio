@@ -18,31 +18,29 @@ const AboutSection = () => {
                 I am hardworking, team-oriented, and possess strong communication skills. I thrive under pressure and always manage to have fun while working on challenging tasks!
             </h3>
             <div className="border-t border-neutral-700 mt-10 pt-6">
-                <div className="flex flex-wrap justify-center items-center gap-6">
+                <div className="gap-6">
                     <img 
                         src={az104}
-                        className="w-32 sm:w-40 md:w-48 hover:scale-105 transition-transform"
+                        className="w-32 sm:w-40 md:w-48 hover:scale-105 transition-transform mx-auto"
                     />
                     <h2 className="text-xl sm:text-2xl flex items-center flex-wrap justify-center text-center md:text-left">
-                        <NotebookPen className="mr-3 text-blue-500" />
                         Currently pursuing the&nbsp; 
                         <span className="bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text text-transparent">
                             AZ-104 Azure Administrator Associate!
                         </span>
                         <a 
-                            className="ml-3 mt-3 sm:mt-0 px-3 py-2 border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 text-white text-sm sm:text-base font-semibold transition hover:scale-105"
+                            className="lg:ml-3 mt-3 sm:mt-0 px-3 py-2 border border-neutral-700 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 text-white text-sm sm:text-base font-semibold transition hover:scale-105"
                         >
                             Coming Soon
                         </a>
                     </h2>
                 </div>
-                <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
+                <div className="gap-6 mt-8">
                     <img 
                         src={az900}
-                        className="w-32 sm:w-40 md:w-48 hover:scale-105 transition-transform"
+                        className="w-32 sm:w-40 md:w-48 hover:scale-105 transition-transform mx-auto"
                     />
-                    <h2 className="text-xl sm:text-2xl flex items-center flex-wrap justify-center text-center md:text-left">
-                        <CircleCheck className="mr-3 text-green-500" />
+                    <h2 className="text-xl sm:text-2xl flex flex-wrap items-center justify-center text-center md:text-left">
                         Successfully earned the&nbsp;
                         <span className="bg-gradient-to-r from-green-300 to-green-600 bg-clip-text text-transparent">
                             AZ-900 Azure Fundamentals Certification!
@@ -50,7 +48,7 @@ const AboutSection = () => {
                         <a 
                             href="https://learn.microsoft.com/api/credentials/share/en-us/RafaelMarcoManubay-8717/8485735ED3E6899F?sharingId=2BC03C20EE2E8C13"
                             target="_blank"
-                            className="ml-3 mt-3 sm:mt-0 px-3 py-2 border border-neutral-700 rounded-md bg-gradient-to-r from-green-300 to-green-600 text-white text-sm sm:text-base font-semibold transition hover:scale-105"
+                            className="lg:ml-3 mt-3 sm:mt-0 px-3 py-2 border border-neutral-700 rounded-md bg-gradient-to-r from-green-300 to-green-600 text-white text-sm sm:text-base font-semibold transition hover:scale-105"
                         >
                             View Certificate
                         </a>
