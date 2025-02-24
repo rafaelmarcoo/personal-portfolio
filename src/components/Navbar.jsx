@@ -41,9 +41,9 @@ const Navbar = () => {
                             </li>
                         ))}
                     </ul>
-                    <div className="hidden lg:flex justify-center space-x-12 items-center">
+                    {/* <div className="hidden lg:flex justify-center space-x-12 items-center">
                         <a href="#" className="border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-blue-300 to-blue-600 transition-transform hover:scale-110">Download CV</a>
-                    </div>
+                    </div> */}
                     <div className="lg:hidden md:flex flex-col justify-end">
                         <button onClick={toggleMenuBar}>
                             {burgerMenu ? <X /> : <Menu />}
@@ -51,7 +51,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 {burgerMenu && (
-                    <div className="fixed top-[53px] left-0 right-0 text-lg text-center lg:hidden border border-neutral-700 w-full p-12 flex flex-col justify-center items-center bg-neutral-900 space-y-6">
+                    <div className="fixed top-[53px] left-0 right-0 text-lg text-center lg:hidden border border-neutral-700/90 w-full p-12 flex flex-col justify-center items-center bg-neutral-900 space-y-6">
                         <ul>
                             {navItems.map((item, index) => (
                                 <li key={index} className="py-4">
@@ -64,9 +64,9 @@ const Navbar = () => {
                                     </a>
                                 </li>
                             ))}
-                            <div className="mt-6 transition-transform hover:scale-105">
+                            {/* <div className="mt-6 transition-transform hover:scale-105">
                                 <a href="#" className="py-3 px-3 border border-neutral-700 p-2 rounded-md bg-gradient-to-r from-blue-300 to-blue-600  ">Download CV</a>
-                            </div>
+                            </div> */}
                         </ul>
                     </div>
                 )}
