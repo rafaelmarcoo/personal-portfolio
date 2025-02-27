@@ -59,7 +59,7 @@ export const projects = [
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg',
         ],
         sourceCode: [
-            'https://github.com/rafaelmarcoo/invoice-system-frontend',
+            'https://github.com/rafaelmarcoo/invoice-system-frontend-v2',
             'https://github.com/rafaelmarcoo/invoice-system-backend',
         ],
         screenshots: [
