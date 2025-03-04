@@ -68,7 +68,7 @@ export const projects = [
     },
     {
         title: "KitaKits!",
-        description: "KitaKits! is an innovative social media and chat platform under planning and development, designed to help users effortlessly using AI make plans, explore locations, and more. Inspired by the Filipino phrase `KitaKits!` meaning `See you later!`, our platform brings people together with ease, making everyday interactions smarter and more engaging.",
+        description: "KitaKits! is an innovative social media and chat platform under planning and development, designed to help users effortlessly to make plans, explore locations, and more using AI. Inspired by the Filipino phrase `KitaKits!` meaning `See you later!`, our platform brings people together with ease, making everyday interactions smarter and more engaging.",
         technology: [
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
