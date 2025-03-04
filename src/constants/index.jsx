@@ -182,11 +182,11 @@ export const experiences = [
         company: "HexWeb Ltd.",
         location: "Hawke's Bay",
         description: [
-            'Developed their in-house invoicing/management system, using ReactJS, ASP.NET Web API, TailwindCSS, and PostgreSQL, increasing efficiency in invoice processing and client management by over 50%.',
+            'Developed their in-house invoicing/management system, with integrated expense tracking, depreciation calculations, and GST return processing,  improving financial management efficiency by over 50%.',
+            'Demonstrated strong problem-solving skills by extending system capabilities beyond the original design, proactively addressing business needs.',
             'Designed and implemented responsive, aesthetic web pages using ReactJS and TailwindCSS, ensuring seamless user experiences across devices.',
             'Built and optimized RESTful APIs with ASP.NET, ensuring smooth communication between the frontend and backend.',
             'Managed and maintained databases with PostgreSQL, ensuring data integrity and performance.',
-            'Assisted in client communications and provided basic technical support, enhancing customer satisfaction.',
         ],
         date: "November 2024 - February 2025",
     },
