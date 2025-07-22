@@ -179,7 +179,20 @@ export const projects = [
 
 export const experiences = [
     {
-        title: "Full Stack Developer Intern",
+        title: "Software Engineer Intern",
+        company: "ELab AI", 
+        location: "Auckland",
+        description: [
+            'Developed and deployed 3+ AI-powered systems, including a Notes Agent that auto-summarizes meeting transcripts and a multi-model AI chat assistant integrated with providers like Grok.',
+            'Designed and built a comprehensive task management system with intelligent task extraction, boosting team productivity by 30%.',
+            'Created responsive financial dashboards visualizing $10M+ in investment data and real-time business metrics across devices.',
+            'Improved UI/UX navigation and workspace organization, enhancing user engagement and platform usability.',
+            'Standardized visual design and branding across the platform, and resolved critical calculation issues to improve system accuracy.',
+        ],
+        date: "April 2025 - July 2025",
+    },
+    {
+        title: "Software Engineer Intern",
         company: "HexWeb Ltd.",
         location: "Hawke's Bay",
         description: [

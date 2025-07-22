@@ -1,6 +1,7 @@
 import testPFP from "../assets/testPFP.jpg";
 import homeIMG1 from "../assets/homeIMG1.jpg";
 import homeIMG2 from "../assets/homeIMG2.jpg";
+import DSCF3175 from "../assets/DSCF3175.jpg";
 import { GraduationCap, Cpu, HeartHandshake } from "lucide-react"
 
 
@@ -51,7 +52,7 @@ const HomeSection = () => {
       <div className="lg:w-1/2 mt-10 w-full sm:w-1/2 p-4 flex justify-center">
         <div className="h-64 w-64 sm:h-80 sm:w-80 rounded-full overflow-hidden hover:scale-110 transition-transform">
           <img 
-            src={homeIMG2} 
+            src={DSCF3175} 
             alt="profilePhoto"
             className="w-full h-full object-cover"
           />
